@@ -1,0 +1,36 @@
+Customer table
+
+ create table customer(customer_id int,
+    ->   customer_name varchar(10),
+    ->   contact_no int(50),
+    ->   contact_address varchar(10),
+    ->         date_of_registration varchar(10),
+    ->   age int,
+    ->   rating int,
+    ->   lead_actor1 varchar(10),
+    ->   lead_actor2 varchar(10),
+    ->               movie_type varchar(10));
+-------------------------------------------------
+ insert into customer(customer_id,customer_name,contact_no,contact_address,date_of_registration,age,lead_actor1,lead_actor2,rating,movie_type)values(1,'Chandana',23493710,'Bangalore','10july',20,'Raksh','Lohi',6,'Crime');
+---------------------------------------------------------------------------------
+
+
+
+
+Movies tABLE
+
+ create table movies(mid int,
+    ->     movie_name varchar(10),
+    ->     release_year int,
+    ->  language varchar(10),
+    ->  rating int,
+    ->  duration_in_mins int,
+    ->  movie_type varchar(10),
+    ->  movie_category varchar(10),
+    ->  director_name varchar(10),
+    ->  lead_actor1 varchar(10),
+    ->  lead_actor2 varchar(10),
+    ->  rental_cost int);
+
+
+insert into movies values(111,'Shutter',2008,'English',8,150,'Thriller','UA','Jack','Rock','Leo',200);
